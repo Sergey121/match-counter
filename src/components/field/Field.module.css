@@ -7,3 +7,14 @@
     grid-template-rows: 3fr 1fr;
     height: 100vh;
 }
+
+@media (max-width: 600px) {
+    .field {
+        grid-template-areas:
+                "team-blue"
+        "team-red"
+        "timer";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
