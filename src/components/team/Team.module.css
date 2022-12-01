@@ -1,0 +1,41 @@
+.team {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    position: relative;
+}
+
+.team-blue {
+    grid-area: team-blue;
+    background: rgba(24, 62, 255, 1);
+}
+
+.team-red {
+    grid-area: team-red;
+    background: rgba(217, 27, 27, 1);
+}
+
+.count {
+    font-size: 15em;
+    color: white;
+}
+
+.actions {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.action {
+    width: 50%;
+    cursor: pointer;
+}
+
+.action:hover {
+    background: black;
+    opacity: 0.1;
+}
+
+
+

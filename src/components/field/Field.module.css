@@ -1,0 +1,9 @@
+.field {
+    display: grid;
+    grid-template-areas:
+        "team-blue team-red"
+        "timer timer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    height: 100vh;
+}

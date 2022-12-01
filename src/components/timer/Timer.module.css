@@ -1,0 +1,21 @@
+.timer {
+    grid-area: timer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.timerTime {
+    font-size: 5em;
+}
+
+.controls {
+    display: flex;
+}
+
+.controls > div {
+    margin: 0 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
