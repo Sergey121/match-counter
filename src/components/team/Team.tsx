@@ -26,8 +26,8 @@ const Team = (props: Props) => {
     <div className={wrapperClasses}>
       <div className={styles.count}>{count}</div>
       <div className={styles.actions}>
-        <div title={'Minus'} onClick={handleMinus} className={`${styles.action} ${styles.actionMinus}`} />
-        <div title={'Plus'} onClick={handlePlus} className={`${styles.action} ${styles.actionPlus}`} />
+        <div title={'Subtract a point'} onClick={handleMinus} className={`${styles.action} ${styles.actionMinus}`} />
+        <div title={'Add a point'} onClick={handlePlus} className={`${styles.action} ${styles.actionPlus}`} />
       </div>
     </div>
   );
